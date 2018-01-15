@@ -36,3 +36,7 @@ You can run the script from your local terminal or integrate into other automati
 
 ![alt text](https://screenshots.firefoxusercontent.com/images/bcd81b49-e75e-407d-b2c8-e88b767f4010.png)
 
+
+Credits
+=======
+[@twellspring](https://github.com/twellspring)
