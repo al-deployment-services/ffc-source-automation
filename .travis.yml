@@ -2,10 +2,7 @@ language: bash
 
 before_script:
     - mkdir ~/.alertlogic && touch ~/.alertlogic/publicapi
-    - cat > ~/.alertlogic/publicapi <<EOL
-      ACCOUNT=123456
-      API_KEY=1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j
-      EOL
+    - echo "ACCOUNT=123456\nAPI_KEY=1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j" >> ~/.alertlogic/publicapi
 
 script:
     - bash ffc-source.sh
